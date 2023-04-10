@@ -1,0 +1,114 @@
+body {
+    background-image: url("abatierlist2bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: 'Rubik Spray Paint', cursive;
+    margin: 30px;
+    background-color: navy;
+}
+
+@keyframes first {
+    0% {color: red}
+    16% {color: orange}
+    33% {color: yellow}
+    49% {color: green}
+    67% {color: blue}
+    83% {color: purple}
+    100%{color: pink}
+}
+
+.firstH {
+   animation: first 10s ease-in-out infinite;
+   margin-left: 625px;
+   text-decoration: underline;
+}
+
+
+.S_Tier {
+    margin-top: 60px;
+    display: inline-block;
+    flex-direction: row;
+    border: solid 2px black;
+    color: #5603ad;
+    padding: 25px;
+    background-color: transparent;
+}
+
+
+.allsimgs {
+    display: inline-block;
+    margin-top: 70px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.SH {
+    display: flex;
+    justify-content: center;
+}
+
+.flexS {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.A_Tier {
+    margin-top: 60px;
+    display: inline-block;
+    flex-direction: row;
+    border: solid 2px black;
+    color: #8367C7;
+    padding: 25px;
+    background-color: transparent;
+}
+
+.AH {
+    display: flex;
+    justify-content: center;
+}
+
+.B_Tier {
+    margin-top: 60px;
+    display: inline-block;
+    flex-direction: row;
+    border: solid 2px black;
+    color: #3F7CAC;
+    padding: 25px;
+    background-color: transparent;
+}
+
+.BH, .CH {
+    display: flex;
+    justify-content: center;
+}
+
+.C_Tier {
+    margin-top: 60px;
+    display: inline-block;
+    flex-direction: row;
+    border: solid 2px black;
+    color: #95AFBA;
+    padding: 25px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar {
+    background-color: navy;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: lightblue;
+   border-radius: 10px;
+   opacity: 0.6;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: lightskyblue;
+}
